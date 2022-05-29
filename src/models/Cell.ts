@@ -81,7 +81,6 @@ export class Cell {
     setFigure(figure: Figure) {
         this.figure = figure;
         this.figure.cell = this;
-        console.log(this);
     }
 
     moveFigure(target: Cell) {
